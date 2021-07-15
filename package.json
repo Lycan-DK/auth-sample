@@ -1,0 +1,43 @@
+{
+  "name": "zap911",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "agenda": "^2.0.2",
+    "async": "^2.6.1",
+    "aws-sdk": "^2.279.1",
+    "body-parser": "^1.18.3",
+    "buffer": "^5.1.0",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "eslint": "^5.16.0",
+    "express": "^4.16.4",
+    "firebase-admin": "^6.4.0",
+    "html-pdf": "^2.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.0.3",
+    "mongose": "0.0.2-security",
+    "multer": "^1.4.1",
+    "multer-s3": "^2.9.0",
+    "nodemailer": "^4.6.7",
+    "nodemon": "^1.18.6",
+    "password-validator": "^4.1.1",
+    "pusher": "^2.2.0",
+    "socket.io": "^2.2.0",
+    "system": "^2.0.1",
+    "twilio": "^3.17.6",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^1.5.5",
+    "gulp": "^3.6.2"
+  },
+  "description": "microservice for ZAP911 for users ",
+  "main": "app.js",
+  "author": "Dikshant Goyat",
+  "license": "Lycan-DK GNU Public"
+}
